@@ -1,0 +1,15 @@
+{
+    "manifest_version": 2,
+    "version": "0.0.1",
+    "name": "Rocksetseat Downloader",
+    "description": "Baixando vídeos da rockseat",
+    "author": "Silvio Luis",
+    "background": {
+        "scripts": ["jquery.min.js", "downloadVideos.js"]
+    },
+    "permissions": ["tabs", "downloads", "storage", "background", "webNavigation", "<all_urls>"],
+    "browser_action": {
+   	    "default_title": "Rocketseat Download",
+   	    "default_popup": "index.html"
+    }
+}
